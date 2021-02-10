@@ -1,0 +1,1 @@
+docker run  -dit --rm --name adv_dsi_lab_3 -p 8888:8888 -e JUPYTER_ENABLE_LAB=yes -v "D:/Projects/adv_dsi_lab_3":/home/jovyan/work -v ~/.aws:/home/jovyan/.aws -v "D:/Projects/adv_dsi_lab_3/src":/home/jovyan/work/src xgboost-notebook:latest
